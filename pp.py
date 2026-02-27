@@ -1,0 +1,12 @@
+n="hello i am chaluva raj from cec"
+print("length of n is : ",len(n))
+print(n[:])
+print(n[-1::-1])
+print(n[6:100])
+print(n[::3*2-5])
+print(n[::2][::-1])
+print("----")
+print(n[::-1])
+print(n[::2])
+print(n[::-1][::2])
+print(n[::-1][::2][::-1])
