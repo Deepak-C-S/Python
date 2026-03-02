@@ -7,4 +7,4 @@ def rem(s):
         s1=len(s)
         k=s[1:s1-2]+s[s1-2:s1-1]
         return k
-rem("palidorrrrsdfea")
+rem("palidorrrrsdfsea")
