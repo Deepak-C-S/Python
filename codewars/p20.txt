@@ -1,0 +1,11 @@
+def fibb(n):
+    n1,n2=0,1
+    while n>0:
+        print(n1,end=" ")
+        add=n1+n2
+        n1=n2
+        n2=add
+        n-=1
+    return ""
+n=int(input("enter the range to get the series: "))
+print(fibb(n))
