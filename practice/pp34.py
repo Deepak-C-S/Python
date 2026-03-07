@@ -15,6 +15,6 @@ def clear(n):
         else:
             string+=i
     return string
-x=input("enter")
+x=input("enter the name :")
 check=clear(x)
 print(check)
