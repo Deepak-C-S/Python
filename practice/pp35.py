@@ -12,6 +12,7 @@ def outer():
     print("c",c)
     def inner():
         print(a)
+        nonlocal c
         c=300
         print("after c",c)
         d=40
