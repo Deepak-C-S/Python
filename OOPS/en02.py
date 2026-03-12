@@ -10,7 +10,7 @@ class Person:
     def set_usn(self, usn):
         self.__usn = usn
 
-    usn = property(get_usn, set_usn)
+    usnn = property(get_usn, set_usn)
 
     def display(self):
         print(f"The name is {self.name}")
@@ -19,6 +19,6 @@ class Person:
 
 
 d = Person("dcs", 21)
-d.usn = "012"      # setter
-print(d.usn)       # getter
+d.usnn = "012"      # setter
+print(d.usnn)       # getter
 d.display()
