@@ -5,9 +5,10 @@ class Person:
         self.__usn = usn
 
     def get_usn(self):
-        return self.__usn , self.__age
+        return self.__usn, self.__age
 
-    def set_usn(self, usn,age):
+    def set_usn(self, data):
+        usn, age = data
         self.__usn = usn
         self.__age = age
 
@@ -20,6 +21,6 @@ class Person:
 
 
 d = Person("dcs", 21)
-d.usnn = "012",21      # setter
-print(d.usnn)       # getter
+d.usnn = ("012", 21)
+print(d.usnn)
 d.display()
