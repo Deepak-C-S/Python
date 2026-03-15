@@ -10,7 +10,7 @@ class Cargo(Plane):
     def takeoff(self):
         print("cargo is takeoff")
     def fly(self):
-        print("cargo is flying")
+        print("cargo plane is flying")
     def land(self):
         print("caargo plane is landing")
     
