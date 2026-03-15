@@ -12,7 +12,7 @@ class Cargo(Plane):
     def fly(self):
         print("cargo is flying")
     def land(self):
-        print("caargo is landing")
+        print("caargo plane is landing")
     
 
 class Passenger(Plane):
