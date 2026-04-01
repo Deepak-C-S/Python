@@ -11,7 +11,7 @@
 # print(li[::3])
 # print(li[-2::2])
 # # print(li[-8:-5:0])
-# list2=["ujwal",["bhoomika","janani","dishaa"]]
+list2=["ujwal",["bhoomika","janani","dishaa"]]
 print(list2)
 print(list2[0])
 print(list2[1])
