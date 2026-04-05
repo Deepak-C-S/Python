@@ -1,14 +1,14 @@
-class Engine:
-    def start(self):
-        pass
-    def stop(self):
-        pass
-class petrolEngine(Engine):
+# class Engine:
+#     def start(self):
+#         pass
+#     def stop(self):
+#         pass
+class petrolEngine:
     def start(self):
         print("Petrol engine started")
     def stop(self):
         print("Petrol engine stopped")
-class dieselEngine(Engine):
+class dieselEngine:
     def start(self):
         print("Diesel engine started")
     def stop(self):
