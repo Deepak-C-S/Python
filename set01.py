@@ -10,5 +10,5 @@ print(type(eg4))
 print(type(eg3))
 print(type(eg2))
 print(type(eg1))
-# print(eg1[5])
-# print(eg1[1:2])
+# print(eg1[5])        slicing and indexing is not available in set datatype in python 
+# print(eg1[1:2])      as it won't store in insertion order !  
