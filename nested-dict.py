@@ -12,4 +12,3 @@ print(student["Address"]["prem"])
 print(student["Address"]["pres"])
 student["Marks"]={"701":100,"702":95,"714":89}
 print(student)
-
