@@ -1,0 +1,15 @@
+student={
+    "Name":"Deepak",
+    "Age":20,
+    "Address":{"prem":"Kadur",
+               "pres":"Bengaluru"
+             }
+}
+print(student)
+print(len(student))
+print(student["Age"])
+print(student["Address"]["prem"])
+print(student["Address"]["pres"])
+student["Marks"]={"701":100,"702":95,"714":89}
+print(student)
+
